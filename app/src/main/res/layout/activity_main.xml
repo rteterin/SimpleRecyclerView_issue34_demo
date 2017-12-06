@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.test.test.MainActivity">
+
+    <com.jaychang.srv.SimpleRecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </com.jaychang.srv.SimpleRecyclerView>
+
+    <Button
+        android:id="@+id/showLoadMore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_load_more" />
+
+    <Button
+        android:id="@+id/hideLoadMore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hideLoadMore" />
+
+    <Button
+        android:id="@+id/showHideLoadMore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/showHideLoadMore" />
+
+</LinearLayout>
